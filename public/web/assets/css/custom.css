@@ -1,0 +1,176 @@
+:root {
+    --fade-blue : #b3b8df;
+    --light-blue : #5868E0;
+    --dark-blue : #00355F;
+    --main-blue:  #5868E0;
+    --white-text:  #ffffff;
+}
+.sticky-menu
+{
+    background: var(--dark-blue);
+}
+.sticky-menu .logo img {
+    width: 45px;
+    padding: 10px 0;
+}
+.features-wrapper {
+    padding: 60px 15px;
+}
+.header-menu ul li a {
+    color: var(--light-blue);
+}
+.btn.btn-bg-white:hover {
+    background-color: var(--light-blue);
+}
+.btn.btn-bg-salmon {
+    background-color: var(--dark-blue);
+    box-shadow: none;
+}
+.btn.btn-bg-salmon:hover
+{
+    background: var(--main-blue);
+}
+.hero-text p {
+    color: var(--fade-blue);
+}
+.section-gradient , .blog-area::before , .get-app a.app-bg-btn , .app-border-btn:hover {
+    background-image: -webkit-linear-gradient(
+        -18deg, var(--dark-blue) 0%, var(--light-blue) 100%);
+}
+#scrollUp {
+    background: var(--dark-blue);
+}
+#scrollUp:hover {
+    background: var(--main-blue);
+}
+.get-app a .fa-apple{
+    color: var(--dark-blue);
+}
+.footer-contact ul li
+{
+    color: var(--main-blue);
+}
+.black-bg
+{
+    color: var(--dark-blue);
+}
+.features-wrapper:hover .feature-inner-text h4 a
+{
+    color: var(--main-blue);
+}
+.define-wrapper:hover .define-inner-text a i {
+    background-color: var(--main-blue);
+}
+.define-wrapper::before {
+    background-color: var(--main-blue);
+}
+.pricing-nav .nav-item.nav-link.active {
+    background: var(--main-blue);
+}
+.btn.prici-btn-orrange {
+    background: var(--main-blue);
+}
+.blog-caru-active .slick-dots li button {
+    background: var(--dark-blue);
+}
+.footer-copyright p {
+    color: var(--main-blue);
+}
+.footer-copyright p span
+{
+    color: var(--dark-blue);
+}
+.price-head h2 {
+    color: var(--dark-blue);
+}
+.btn.prici-btn-gray {
+    color: var(--main-blue);
+}
+.price-btn a.btn.prici-btn-gray:hover
+{
+    background: var(--main-blue);
+}
+.footer-social-icons ul li a:hover {
+    background: var(--dark-blue);
+    color: #fff;
+    border-color: var(--dark-blue);
+}
+.footer-social-icons ul li a {
+    color: var(--light-blue);
+}
+.designation span
+{
+    color: var(--main-blue);
+}
+.section-title.section-title-salmon h6
+{
+    color: var(--dark-blue);
+}
+.blog-tag {
+    color: var(--main-blue);
+}
+.stock-text.destination-text p  {
+    color: var(--fade-blue);
+}
+p {
+    color: var(--main-blue);
+}
+.play-btn
+{
+    color: var(--white-text);
+    border: 2px solid var(--dark-blue);
+}
+.play-btn:hover {
+    background: var(--light-blue);
+}
+.skill-circle-text p {
+    color: var(--white-text);
+}
+.footer-menu ul li a
+{
+    color:var(--dark-blue);
+}
+.footer-menu ul li a:hover {
+    color: var(--light-blue);
+}
+.footer-address address{
+     color: var(--dark-blue);
+}
+
+.app-store-link img.app-badge {
+    position: unset;
+    width: 150px;
+    border: 0px;
+}
+.btn.btn-bg-white:hover {
+    box-shadow: 0px 8px 16px 0px #3554ad;
+}
+@media only screen and (min-width: 700px) {
+.app-store-link img.app-badge {
+    width: 220px;
+}
+.footer-widget .app-store-link img.app-badge {
+    width: 135px;
+}
+}
+@media only screen and (max-width: 600px) {
+ .mob-ham {
+    top: -30px;
+}
+.sticky-menu .header-menu ul li a:hover, .sticky-menu .header-menu ul li.active a {
+    color: var(--dark-blue);
+}
+nav#basic-nav {
+    margin-top: 45px !important;
+}
+.sticky-menu .responsive {
+    margin-top: -22px;
+}
+.sticky-menu {
+    padding-top: 10px;
+}
+.header-menu {
+    margin-top: 0px;
+}
+
+}

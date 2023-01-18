@@ -1,0 +1,6 @@
+[25-Nov-2021 12:06:51 UTC] PHP Fatal error:  Cannot redeclare App\Models\Order::$casts in /home/innoiapa/public_html/cheetha-pro/app/Models/Order.php on line 45
+[25-Nov-2021 12:07:08 UTC] PHP Fatal error:  Cannot redeclare App\Models\Order::$casts in /home/innoiapa/public_html/cheetha-pro/app/Models/Order.php on line 45
+[25-Nov-2021 12:07:35 UTC] PHP Fatal error:  Cannot redeclare App\Models\Order::$casts in /home/innoiapa/public_html/cheetha-pro/app/Models/Order.php on line 45
+[25-Nov-2021 12:07:42 UTC] PHP Fatal error:  Cannot redeclare App\Models\Order::$casts in /home/innoiapa/public_html/cheetha-pro/app/Models/Order.php on line 45
+[25-Nov-2021 12:07:48 UTC] PHP Fatal error:  Cannot redeclare App\Models\Order::$casts in /home/innoiapa/public_html/cheetha-pro/app/Models/Order.php on line 45
+[04-Jan-2022 05:13:15 UTC] PHP Fatal error:  Cannot use App\Models\BookingDetail as BookingDetail because the name is already in use in /home/inteevql/public_html/cheetha-pro/app/Http/Controllers/Admin/OrderController.php on line 14
